@@ -1,0 +1,44 @@
+<svg id="svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 1720 1050" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+   <defs>
+   <style type="text/css">
+    @keyframes bounceIn{
+        0%{
+            transform:scale(1);
+            opacity: 1;
+        }
+        50%{
+            transform:scale(1.2);
+            opacity: .5;;
+        }
+        100%{
+            transform:scale(1);
+            opacity: 1;
+        }
+    }
+    #svg{opacity:1}
+       .square{fill:#F9D467;}
+       .square:hover{fill:orchid; animation-duration: .5s; animation-name: bounceIn;}
+       .circle{fill:#72AA8B;}
+       circle:hover{fill:orchid;animation-duration: .5s; animation-name: bounceIn;}
+       .triangle{fill:#F1A463;}
+     .triangle:hover{fill:orchid;animation-duration: .5s; animation-name: bounceIn;}
+   </style>
+   </defs>
+   
+   <g id="square">
+       
+           <rect x="510" y="527" class="square" width="176" height="176"/>
+       
+   </g>
+   <g id="circle">
+       
+           <circle class="circle" cx="510" cy="378" r="133"/>
+       
+   </g>
+   <g id="triangle">
+       
+           <polygon class="triangle" points="826,149.1 930.5,330 1035,511 826,511 617.1,511 721.6,330 		"/>
+       
+   </g>
+   </svg>
